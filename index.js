@@ -23,7 +23,7 @@ function makeInt(n){
   }
   //  elseif(parsed === -n){
   //  return (10*n)
- }
+ //}
  else{
     return parsed
   }

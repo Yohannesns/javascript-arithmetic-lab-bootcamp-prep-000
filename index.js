@@ -20,8 +20,11 @@
     if(n>=0){
     return parseInt(n)
    }
-   else{
+   else if (n <0){
      return 0
+   }
+   else{
+     return NaN
    }
  }
   function preserveDecimal(n){

@@ -24,9 +24,9 @@
    if(parsed <0){
      return 0
         }
-      // else{
-      //    return parsed
-      //  }
+      else{
+         return parsed
+       }
   }
   function preserveDecimal(n){
     return parseFloat(n)

@@ -28,7 +28,7 @@
   //     else{
   //        return parsed
   //      }
-  // }
+   }
   function preserveDecimal(n){
     return parseFloat(n)
   }

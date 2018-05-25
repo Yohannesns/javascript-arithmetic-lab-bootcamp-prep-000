@@ -22,9 +22,9 @@ function makeInt(n){
     return NaN
   }
    else if(parsed <=0){
-   return (0*parsed)
+   return 0*parsed
  }
- else(parsed >0){
+ else{
     return parsed
   }
 }

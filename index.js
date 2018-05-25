@@ -18,16 +18,17 @@
   }
   function makeInt(n){
     var parsed = parseInt(n)
+    return parsed
       // if (isNaN(parsed)){
       //     return NaN
       //    }
-   if(parsed <0){
-     return 0
-        }
-      else{
-         return parsed
-       }
-  }
+  //  if(parsed <0){
+  //    return 0
+  //       }
+  //     else{
+  //        return parsed
+  //      }
+  // }
   function preserveDecimal(n){
     return parseFloat(n)
   }

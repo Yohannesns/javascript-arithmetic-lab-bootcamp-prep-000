@@ -17,17 +17,7 @@
     return n = n-1
   }
   function makeInt(n){
-    var parsed = parseInt(n)
-    return parsed
-      // if (isNaN(parsed)){
-      //     return NaN
-      //    }
-  //  if(parsed <0){
-  //    return 0
-  //       }
-  //     else{
-  //        return parsed
-  //      }
+    return parseInt(n)
    }
   function preserveDecimal(n){
     return parseFloat(n)

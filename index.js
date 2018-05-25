@@ -17,7 +17,7 @@
     return n = n-1
   }
   function makeInt(n){
-    if(n>0){
+    if(n>=0){
     return parseInt(n)
    }
    else{

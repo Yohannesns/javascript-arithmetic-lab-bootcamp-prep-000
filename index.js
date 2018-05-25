@@ -24,7 +24,7 @@ function makeInt(n){
    else if(parsed <=0){
    return (0*parsed)
  }
- else{
+ else(parsed >0){
     return parsed
   }
 }

@@ -19,6 +19,10 @@ function dec(n){
 function makeInt(n){
   var parsed = parseInt(n)
   if (isNaN(parsed)){return NaN}
+   elseif(parsed === -n){
+   return (10*n)
+ }
+ else{
     return parsed
   }
 

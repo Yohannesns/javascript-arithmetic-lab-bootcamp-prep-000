@@ -17,8 +17,13 @@
     return n = n-1
   }
   function makeInt(n){
+    if(n>0){
     return parseInt(n)
    }
+   else{
+     return 0
+   }
+ }
   function preserveDecimal(n){
     return parseFloat(n)
   }

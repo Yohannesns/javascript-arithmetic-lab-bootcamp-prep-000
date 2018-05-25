@@ -21,8 +21,8 @@ function makeInt(n){
   if (isNaN(parsed)){
     return NaN
   }
-   elseif(parsed === -n){
-   return (10*n)
+  //  elseif(parsed === -n){
+  //  return (10*n)
  }
  else{
     return parsed

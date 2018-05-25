@@ -1,33 +1,33 @@
-function add(a,b){
-  return a+b
-}
-function subtract(a,b){
-  return a-b
-}
-function multiply(a,b){
-  return a*b
-}
-function divide(a,b){
-  return a/b
-}
-function inc(n){
-  return n = n+1
-}
-function dec(n){
-  return n = n-1
-}
-function makeInt(n){
-  var parsed = parseInt(n)
-  if (isNaN(parsed)){
-    return NaN
+  function add(a,b){
+    return a+b
   }
-   else if(parsed <0){
-   return 0
- }
- else{
-    return parsed
+  function subtract(a,b){
+    return a-b
   }
-}
-function preserveDecimal(n){
-  return parseFloat(n)
-}
+  function multiply(a,b){
+    return a*b
+  }
+  function divide(a,b){
+    return a/b
+  }
+  function inc(n){
+    return n = n+1
+  }
+  function dec(n){
+    return n = n-1
+  }
+  function makeInt(n){
+    var parsed = parseInt(n)
+      if (isNaN(parsed)){
+          return NaN
+         }
+     else if(parsed <0){
+     return 0
+        }
+      else{
+         return parsed
+       }
+  }
+  function preserveDecimal(n){
+    return parseFloat(n)
+  }

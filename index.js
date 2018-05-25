@@ -22,7 +22,7 @@ function makeInt(n){
     return NaN
   }
    else if(parsed <0){
-   return (10*n)
+   return (10*parsed)
  }
  else{
     return parsed
